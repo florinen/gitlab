@@ -24,7 +24,7 @@ resource "aws_instance" "gitlab" {
       "sudo systemctl enable postfix",
       "sudo systemctl status postfix",
       "sudo curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash",
-      "sudo EXTERNAL_URL='http://gitlab.acirrustech'",
+      "sudo EXTERNAL_URL='http://gitlab.devopnet.com'",
       "sudo yum install -y gitlab-ce",
       "sudo gitlab-ctl reconfigure",
     ]
