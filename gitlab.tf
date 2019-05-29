@@ -26,7 +26,7 @@ resource "aws_instance" "gitlab" {
       "sudo curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash",
       "sudo EXTERNAL_URL='http://gitlab.devopnet.com'",
       "sudo yum install -y gitlab-ce",
-      "sudo gitlab-ctl reconfigure"
+      "sudo gitlab-ctl reconfigure",
     ]
   }
 }
